@@ -1,1 +1,25 @@
 /* Your code here */
+.masthead {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.masthead__menu-and-search {
+}
+.masthead__actions {
+  grid-column: 3/4;
+}
+.masthead__technologies {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+.masthead__date {
+  grid-row: 3/4;
+}
+.masthead__logo {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+.masthead__paper {
+  grid-row: 3/4;
+}
