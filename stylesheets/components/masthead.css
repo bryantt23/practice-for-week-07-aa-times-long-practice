@@ -6,6 +6,9 @@
 }
 
 .masthead__menu-and-search {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
 }
 
 .masthead__actions {
