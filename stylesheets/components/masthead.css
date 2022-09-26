@@ -2,13 +2,12 @@
 .masthead {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 1fr 20px 1fr;
 }
 
 .masthead__menu-and-search {
   display: flex;
   align-items: center;
-  padding-left: 20px;
 }
 
 .masthead__actions {
