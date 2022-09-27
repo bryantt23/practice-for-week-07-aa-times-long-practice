@@ -1,1 +1,21 @@
 /* Your code here */
+.interest-links {
+  display: grid;
+  background-color: aqua;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+}
+
+.interests-bar__image {
+  height: 100px;
+  background-color: orange;
+}
+
+.interests-bar__headline {
+  height: 50px;
+  background-color: blue;
+}
+
+.interests-bar__story {
+  height: 50px;
+  background-color: green;
+}
