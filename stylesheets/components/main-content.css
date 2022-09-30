@@ -1,1 +1,29 @@
 /* Your code here */
+.main-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.main-title {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.app-academy-section {
+  grid-template-columns: 7fr 3fr;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* https://stackoverflow.com/questions/11737266/what-is-default-list-styling-css */
+.app-academy-text li {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.app-academy-video {
+}
