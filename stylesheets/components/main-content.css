@@ -43,3 +43,8 @@ h1 {
   margin-top: 10px;
   border-top: 1px solid black;
 }
+
+.bottom-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
