@@ -11,7 +11,9 @@
 }
 
 .app-academy-section {
+  display: grid;
   grid-template-columns: 7fr 3fr;
+  /* display: flex; */
 }
 
 .subtitle {
@@ -21,9 +23,13 @@
 
 /* https://stackoverflow.com/questions/11737266/what-is-default-list-styling-css */
 .app-academy-text li {
+  grid-column: 1/2;
   list-style-type: square;
   list-style-position: inside;
 }
 
 .app-academy-video {
+  grid-column: 2/3;
+  width: 100%;
+  height: auto;
 }
